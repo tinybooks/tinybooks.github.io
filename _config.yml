@@ -1,0 +1,18 @@
+# Site settings
+title: Tiny Books · Short Books for Creative Entrepreneurs
+email: chris@monographic.org
+description: > # this means to ignore newlines until "baseurl:"
+  Tiny Books · Short Books for Creative Entrepreneurs
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://tinybooks.org" # the base hostname & protocol for your site
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
+twitter_username: readtinybooks
+github_username:  tinybooks
+paginate: 10
+exclude: node_modules
+permalink: /journal/:title
+paginate_path: "/journal/page:num/"
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
