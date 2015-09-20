@@ -2,8 +2,9 @@
 layout: post
 title: "Hello, World!"
 date: 2015-09-20 14:00:00
+author: Christopher Murphy
 categories: jekyll update
-summary: This is the summary of the post, I believe. Are we using this summary anywhere? If so, should it be the first paragraph?
+summary: This is the summary of the post, I believe. Are we using this summary anywhere? If so, should it be the first paragraph? If not, can we delete this summary from the YAML front matter?
 image: hello-world.png
 imagealt: Hello, World! [Detail]
 ---
