@@ -10,9 +10,8 @@ title: Archive
       <li class="post">
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <ul class="post-meta">
-			<li>{{ post.date | date: "%B %-d" }}{% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %}, {{ post.date | date: "%Y" }}</li>
--          <li>{{ post.author }}</li>
--          <li class="post-meta--unix"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
+			<li>{{ post.author }}</li>
+			<li class="post-meta--unix"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
         </ul>
 				<p>{{ post.summary }}</p>
       </li>
