@@ -1,19 +1,20 @@
-# Site settings
+# Site Settings
 title: Tiny Books · Short Books for Creative Entrepreneurs
 email: info@tinybooks.org
-description: > # this means to ignore newlines until "baseurl:"
+description: > # This means to ignore newlines until "baseurl:"
   Tiny Books · Short Books for Creative Entrepreneurs
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://tinybooks.org" # the base hostname & protocol for your site
-# url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site
-url: "http://tinybooks.github.io/" # the base hostname & protocol for your site
+# url: "http://tinybooks.org" # The base hostname and protocol for your site.
+# url: "http://127.0.0.1:4000/" # The base hostname and protocol for your site.
+url: "http://tinybooks.github.io/" # The base hostname and protocol for your site.
 twitter_username: fehler
 github_username:  tinybooks
 paginate: 10
 exclude: node_modules
 permalink: /journal/:title
 paginate_path: "/journal/page:num/"
-# Build settings
+
+# Build Settings
 markdown: kramdown
 sass:
   style: compressed
