@@ -8,9 +8,11 @@ image: post-example.png
 imagealt: Testing the `alt` attribute. [Detail]
 ---
 
-Another test.
+Another test. In this test, I've:
 
-In this test, I've removed the quotation marks in the `title:` front matter. I've also removed the `summary` completely.
+1. Removed the quotation marks in the `title:` front matter.
+2. Removed the `summary` completely.
+3. Changed the file suffix to `.md` instead of `.markdown`.
 
 [Take me home.][tiny-books]
 
