@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quick Test"
+title: "Quick Test"
 date:   2015-12-29 14:08:00
 author: Christopher Murphy
 categories: jekyll update
