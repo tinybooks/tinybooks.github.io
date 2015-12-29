@@ -1,24 +1,23 @@
 <nav class="nav-main">
-	<div class="container">
-		<ul>
-			<li class="nav-logo"><a href="{{ site.baseurl }}/"><i class="icon logo"></i> <span>Tiny Books</span></a></li>
-			<li><a href="{{ site.baseurl }}/books">Books</a></li>
-			<li><a href="{{ site.baseurl }}/journal">Journal</a></li>
-			<li><a href="{{ site.baseurl }}/purpose">Purpose</a></li>
-			<li class="mb-hide"><a class="js-newsletter" href="">Newsletter</a></li>
-		</ul>
-	</div>
+  <div class="container">
+    <ul>
+      <li class="nav-logo"><a href="{{ site.baseurl }}/"><i class="icon logo"></i> <span>Tiny Books</span></a></li>
+      <li><a href="{{ site.baseurl }}/books">Books</a></li>
+      <li><a href="{{ site.baseurl }}/journal">Journal</a></li>
+      <li><a href="{{ site.baseurl }}/purpose">Purpose</a></li>
+      <li class="mb-hide"><a class="js-newsletter" href="">Newsletter</a></li>
+    </ul>
+  </div>
 </nav>
 <header class="header-condensed">
-	<div class="container">
-		<div class="header-contents">
+  <div class="container">
+    <div class="header-contents">
       {% if page.title-override %}
-			<span class="page-title">{{ page.title-override }}</span>
+      <span class="page-title">{{ page.title-override }}</span>
       {% else %}
-			<h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       {% endif %}
       <i class="icon logo"></i>
-		</div>
-		<!-- /.header-contents -->
-	</div>
+    </div> <!-- /.header-contents -->
+  </div>
 </header>

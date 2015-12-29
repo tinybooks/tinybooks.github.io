@@ -3,12 +3,12 @@ title: Tiny Books · Short Books for Creative Entrepreneurs
 email: info@tinybooks.org
 description: > # This means to ignore newlines until "baseurl:"
   Tiny Books · Short Books for Creative Entrepreneurs
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" # The subpath of your site, e.g. /blog/.
 # url: "http://tinybooks.org" # The base hostname and protocol for your site.
 # url: "http://127.0.0.1:4000/" # The base hostname and protocol for your site.
 url: "http://tinybooks.github.io/" # The base hostname and protocol for your site.
 twitter_username: fehler
-github_username:  tinybooks
+github_username: tinybooks
 paginate: 10
 exclude: node_modules
 permalink: /journal/:title
