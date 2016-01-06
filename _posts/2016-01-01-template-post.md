@@ -3,8 +3,8 @@ title:			Title Here
 author:			Christopher Murphy
 date:			2016-01-01 09:00:00
 category: 		Notes
-image:			hello-world.png
-imagealt:		Hello, World! [Detail]
+image:			generic-space.png
+imagealt:		The Tiny Books Universe [Detail]
 layout:			post
 ---
 
