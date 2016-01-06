@@ -15,9 +15,9 @@ Ship early. Ship often. This is the advice I offer my students (and those I ment
 
 Strickland’s focus might be software, but – if we widen our understanding of what software might be – the underlying idea that he, and others, espouse fits. My goal with Tiny Books is to create ‘software for the mind’, content that helps to shape understanding.
 
-In the spirit of shipping, and not endlessly polishing and perfecting behind the scenes, I’m launching the Tiny Books web site as I work on it. Expect changes (and lots of them).
+In the spirit of shipping, and not endlessly polishing and perfecting behind the scenes, I’m launching the Tiny Books web site as I work on it. Expect changes (and doubtless lots of them).
 
-I intend to work on the books as I share content via the journal. I hope to have the first two books – _Start!_ and _You Are a Channel_ – available at some point soon. While I’m working on them I’ll be sharing draft content here, via the Tiny Books journal.
+I intend to work on the books as I share content via the journal. I hope to have the first two books – _Start!_ and _You Are a Channel_ – available at some point in the near future. While I’m working on them I’ll be sharing draft content here, via the Tiny Books journal.
 
 I’ve missed gathering my thoughts in a journal, and – if you’ve seen me speak, you’ll know I believe [A Good Writer Is a Good Thinker][01] – I’m looking forward to sharing my discoveries again.
 
