@@ -5,6 +5,7 @@ author:			Christopher Murphy
 image:			post-example.png
 imagealt:		Testing the `alt` attribute. [Detail]
 layout:			post
+draft:			true
 ---
 
 In this test, I've:
