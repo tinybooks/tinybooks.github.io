@@ -17,29 +17,29 @@ I asked Mr Marcotte a dozen questions.
 
 *IMG: Unstoppable Robot Ninja*
 
-__Where did you learn your craft?__
+####Where did you learn your craft?
 
 I’m still learning, frankly. I started designing for the web over (Oh, God!) fifteen years ago, mucking around with HTML and a questionably–obtained copy of Photoshop in my college dormitory.
 
 Web design really started as a hobby for me – a thing I tinkered with when I was avoiding homework – but it eventually became a bit more than that. After school I got my first studio job, working alongside some of the most creative, talented people I’ve ever met, and was thoroughly hooked at that point.
 
-__Who inspires you?__
+####Who inspires you?
 
 My wife, Elizabeth. She’s funnier than me, smarter than me, and more talented than me by miles.
 
-__What are your influences?__
+####What are your influences?
 
 Blame my lack of formal training, I guess, but I’ve always, always loved a good movie poster. In my office I have prints of Schlutz–Neudamm’s Metropolis, Jim Pearsall’s Chinatown, Saul Bass’s Vertigo one-sheet, and John Alvin’s Blade Runner. I could stare at those for days.
 
 *IMG: Ethan Marcotte - Responsive Web Design*
 
-__Responsive Web Design has become part of the establishment since the phrase was coined back in 2010. What do you feel are the biggest challenges facing RWD today?__
+####Responsive Web Design has become part of the establishment since the phrase was coined back in 2010. What do you feel are the biggest challenges facing RWD today?
 
 There are plenty of technical challenges, but we’re fortunate to have folks far, far smarter than I working on them. Advertising is one of the thornier issues out there, but the likes of Mark Boulton and Roger Black are chatting about the challenges it, and other factors, pose in great detail. Performance is (and should be) a concern of every responsive–minded designer; fortunately people like Filament Group and the BBC are guiding us through some of the challenges.
 
 Generally speaking, though, I get the sense that the biggest challenge for many getting excited about responsive web design is this: “Where do I begin?” We’ve been designing with a rather fixed view of the web (no pun intended) for some time now, and our process is just starting to break out of it. That’s the discussion I’m really interested in: How do we really design for a completely flexible design medium?
 
-__Looking forward, what lies beyond RWD?__
+####Looking forward, what lies beyond RWD?
 
 Man, I don’t know. I rarely know what the web’s going to be in a few day’s time, much less a month or two down the road.
 
@@ -49,7 +49,7 @@ That said, I don’t think I’m the only one realising we need to change the wa
 
 I have no idea, but it’s going to be a wild ride.
 
-__As well as coining the term Responsive Web Design you’ve made great efforts in establishing a discourse for the humble animated GIF, which has seen a resurrection in popular culture after a decade of decline. What, in your opinion, is the allure of the GIFa?__
+####As well as coining the term Responsive Web Design you’ve made great efforts in establishing a discourse for the humble animated GIF, which has seen a resurrection in popular culture after a decade of decline. What, in your opinion, is the allure of the GIFa?
 
 Man. Everyone’s going to have a different answer for that question.
 
@@ -59,13 +59,13 @@ So yeah, my love of GIFs isn’t exactly the most… elevated form of expression
 
 *IMG: 'Excellent!' I cried. 'Elementary,' said he.*
 
-__Language clearly matters to you – we particularly enjoyed your lesson in the latest issue of The Manual – yet language is often overlooked as a design element by many. How might we open the eyes of the masses to the wonderful opportunities that language offers?__
+####Language clearly matters to you – we particularly enjoyed your lesson in the latest issue of The Manual – yet language is often overlooked as a design element by many. How might we open the eyes of the masses to the wonderful opportunities that language offers?
 
 I don’t know if I’d be in this industry if I hadn’t found Scott Andrew LePera’s blog and, through it, Zeldman’s. Hell, the only reason I got interested in that whole ‘web standards’ thing was because Jeffrey was writing about it so impossibly well. For me – and, I think, for a few other people – he elevated CSS and HTML out of talk of curly braces and angle brackets and into an imperative, using nothing but some of the finest language I’ve ever read. Hell, there wouldn’t have been any of this ‘responsive web design’ nonsense without John Allsopp’s A Dao of Web Design.
 
 Words can linger, they can wound; they can exhort or incite. Read anything written by Erin Kissane, Mandy Brown, or Paul Ford, and try not to feel inspired to write something of your own.
 
-__You’ve been cultivating your profile on Twitter since 2006, and fit the demographic of the early geek adopter perfectly. Twitter is a very different place than when you joined nearly six years ago, have the moves towards a more controlled, homogenous Twitter experience made you feel different about the platform?__
+####You’ve been cultivating your profile on Twitter since 2006, and fit the demographic of the early geek adopter perfectly. Twitter is a very different place than when you joined nearly six years ago, have the moves towards a more controlled, homogenous Twitter experience made you feel different about the platform?
 
 Well, I don’t presume to speak for other early Twitter users, but my sense is that there’s a kind of cautious concern as we wait to see what happens next.
 
@@ -73,7 +73,7 @@ Twitter is, understandably, moving to make this wonderful thing they’ve built 
 
 But! Twitter employs some of the finest people I know, who care about Twitter as deeply as I do. I’m honestly looking forward to seeing what they do next.
 
-__You describe yourself as a true renaissance man: web designer, developer, speaker and author. If you had to pick just one, which would it be?__
+####You describe yourself as a true renaissance man: web designer, developer, speaker and author. If you had to pick just one, which would it be?
 
 If the web went away tomorrow, I’d move into the hills of Vermont and write. Every day I don’t write something down – and there’ve been more of those recently than I’d like – I miss it.
 
@@ -81,17 +81,17 @@ If the web went away tomorrow, I’d move into the hills of Vermont and write. E
 
 *IMG: MFA Interaction Design*
 
-__What’s your favourite typeface?__
+####What’s your favourite typeface?
 
 Hmm. I don’t think I have one favorite. Lately, I’ve been circling around TypeTogether’s Abril for display, especially the heavier italics. I’m also a sucker for a good, geometric sans, and can’t stop drooling over Process Type Foundry’s Colfax.
 
-__What’s your favourite plain text editor?__
+####What’s your favourite plain text editor?
 
 For work, I’ve been using TextMate since it was released, and love it; it’s just as good as Allaire HomeSite, my lost love and The Editor To Which All Other Editors Should be Compared. I’ve recently switched over to the TextMate 2 alpha, since it’s now seeing a flurry of development, and it’s been fantastic.
 
 For writing? All I need is SimpleNote/Notational Velocity, and I’m happy.
 
-__What’s your favourite tea?__
+####What’s your favourite tea?
 
 Coffee.
 
