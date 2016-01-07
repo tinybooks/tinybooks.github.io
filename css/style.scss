@@ -12,6 +12,7 @@ $dark: #272C2D;
 $light: #DCDAC8;
 $link: #FF5720;
 $blue: #38556E;
+$grey: #DDDDDD;
 
 
 $sp: 42px;
@@ -604,7 +605,7 @@ footer {
 }
 
 .post-image {
-  border: 5px solid $blue;
+  border: 5px solid $grey;
 }
 
 .post-meta {
