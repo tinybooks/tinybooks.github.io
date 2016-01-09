@@ -3,7 +3,7 @@ title:			A Dozen Questions for Mr Marcotte
 author:			Christopher Murphy
 date:			2016-01-01 21:20:00
 category: 		A Dozen Questions
-image:			generic-space.png
+image:			tiny-books-universe.png
 imagealt:		The Tiny Books Universe [Detail]
 layout:			post
 ---

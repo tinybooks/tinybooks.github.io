@@ -20,9 +20,10 @@ Content goes here. [This is a link.][01]
 Categories:
 
 	Notes
+	Essays
+	A Dozen Questions…
+	Advice
 	Required Reading
-	A Dozen Questions
-	Updates
-	Drafts
+	Tiny Books
 
 -->
