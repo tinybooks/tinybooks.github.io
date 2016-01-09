@@ -7,7 +7,7 @@ layout: home
 	<h1>From the Journal</h1>
 
 	<ul class="list-posts">
-		{% for post in site.posts limit:6 %}
+		{% for post in site.posts limit:12 %}
 			<li class="post">
 				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 				<ul class="post-meta">
