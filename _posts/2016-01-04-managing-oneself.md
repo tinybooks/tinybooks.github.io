@@ -1,7 +1,7 @@
 ---
 title:			Managing Oneself
 author:			Christopher Murphy
-date:			2016-01-01 18:40:00
+date:			2016-01-04 18:40:00
 category: 		Required Reading
 image:			managing-oneself.png
 imagealt:		Managing Oneself [Detail]

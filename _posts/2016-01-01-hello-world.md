@@ -1,7 +1,7 @@
 ---
 title:			Hello, World!
 author:			Christopher Murphy
-date:			2016-01-01 10:40:00
+date:			2016-01-01 09:00:00
 category: 		Notes
 image:			hello-world.png
 imagealt:		Hello, World! [Detail]
