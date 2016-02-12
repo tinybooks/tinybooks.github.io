@@ -13,7 +13,7 @@ It’s no secret that I’m a [Sugru][01] supporter. (Sugru is, perhaps unsurpri
 
 I’ve always found Sugru’s story inspiring. It’s a story of relentless  – never-give-up – perseverance. It’s also a story that we can all learn from, about the power of staying true to your vision and following that vision to the end.
 
-In 2014, when I launched my Kickstarter for my design conference, [Break][03], Sugru founder Jane ni Dhulchaointigh – I prefer to call her ‘Jane’, as I’ve always struggled with accurate pronunciations – was right at the heart of my speaker wishlist.
+In 2014, when I launched my Kickstarter for my design conference, [Break][03], Sugru founder Jane Ni Dhulchaointigh – I prefer to call her ‘Jane’, as I’ve always struggled with accurate pronunciations – was right at the heart of my speaker wishlist.
 
 I was delighted when she agreed to speak at Break, and her talk – on the highs and lows of her journey – had attendees talking for quite some time afterwards. (It’s no exaggeration to say that she completely moved the audience.)
 
