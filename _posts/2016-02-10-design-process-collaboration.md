@@ -9,7 +9,7 @@ layout:			post
 ---
 
 
-Jordan Koschei interviews Ludwig Pettersson, Creative Director at Stripe, for Medium’s ‘In Progress’. There’s a lot to learn in Koschei’s interview, but one aspect caught my eye in particular, Pettersson’s assertion that:
+Jordan Koschei interviews Ludwig Pettersson, Creative Director at Stripe, for Medium’s ‘In Progress’. There’s a lot to learn in [Koschei’s interview][01], but one aspect caught my eye in particular, Pettersson’s assertion that:
 
 > There should be nothing standing in the way of starting a business or selling something online and charging for it.
 
