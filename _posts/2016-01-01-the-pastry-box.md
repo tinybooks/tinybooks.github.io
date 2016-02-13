@@ -13,13 +13,13 @@ Throughout 2015 I had the pleasure of writing a monthly column for [The Pastry B
 
 > The concept of the Pastry Box is quite simple: bring people together and let them write about anything they want. If you do that, you should get some kind of testimony about our day and age. 
 
-Reading others’ thoughts on The Pastry Box over the last few years inspired me tremendously, and I was honoured to be invited to ontribute to the project. My focus was on creativity, focusing on a monthly programme that readers could follow to grow creatively.
+Reading others’ thoughts on The Pastry Box over the last few years inspired me tremendously, and I was honoured to be invited to contribute to the project. My focus was on creativity, focusing on a monthly programme that readers could follow to grow creatively.
 
 For four – inspiring – years, Alex Duloz and Katy Watkins (the project’s editor) invited a handful of ‘bakers’, “To share thoughts regarding what they do.”
 
-Their intention was to publish a daily dose of inspiration from makers around the world. I’m delighted to have been a part of the project, and – one day – imagine some of my content for The Pastry Box will find its way into my Tiny Books.
+Their intention was to publish a daily dose of inspiration from makers around the world. I’m delighted to have been a part of the project, and – one day – imagine some of my content for The Pastry Box will find its way into my Tiny Books. Until then, you can read my thoughts on [Designing a Mind][02] at The Pastry Box archive.
 
-Until then, you can read my thoughts on [Designing a Mind][02] at The Pastry Box archive. It contains a wealth of thoughts and certainly constitutes a testimony about our day and age.
+I’ll miss The Pastry Box, but it lives on in an archive of published material. It contains a wealth of thoughts and certainly constitutes a testimony about our day and age.
 
 
 [01]: https://the-pastry-box-project.net "The Pastry Box"

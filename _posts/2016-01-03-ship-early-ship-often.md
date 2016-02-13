@@ -1,7 +1,7 @@
 ---
 title:			Ship Early, Ship Often
 author:			Christopher Murphy
-date:			2016-01-01 13:10:00
+date:			2016-01-03 13:10:00
 category: 		Updates
 image:			tiny-books-universe.png
 imagealt:		The Tiny Books Universe [Detail]

@@ -9,21 +9,25 @@ layout:			post
 ---
 
 
-Peter Drucker's [Managing Oneself][01] is a perennial favourite that I return to year after year. (It's also one of the books I recommend most often as a [speaker][02].)
+Peter Drucker’s [Managing Oneself][01] is a perennial favourite that I return to year after year. (It’s also one of the books I recommend most often as a [speaker][02].)
 
-It's short, to the point and can be read in a couple of hours. The advice it contains, however, will reverberate long afterwards. Drucker is the author of numerous books, all well worth reading, this short book… More content here. Stop reading. Really. Stop reading.
+It’s short, to the point and can be read in a couple of hours. The advice it contains, however, will reverberate long afterwards. This is why I try to re-read it at least once or twice a year.
 
-It’s a short book, but I’ve found it useful. In the earlier part of the book, where it focuses on manners, there’s lots of good content that I stress that to my students. This part:
+Drucker is the author of numerous books, all well worth reading, however, this short book – part of the excellent Harvard Business Review Classics series – always draws me back.
 
-> Manners are the lubricating oil of an organisation. … Manners — simple things like saying ‘please’ and ‘thank you’ and knowing a person’s name or asking after her family — enable two people to work together whether they like each other or not. Bright people, especially bright young people, often do not understand this.
+Drucker’s advice focuses on knowing yourself well enough to make the right decisions. Understanding your strengths, being aware of your relationships with others, and knowing how best you communicate… All of these add up, if you’re mindful, to success.
 
-> If analysis shows that someone’s brilliant work fails again and again as soon as cooperation from others is required, it probably indicates a lack of courtesy — that is, a lack of manners.
+Drucker’s focus on the importance of cultivating (or developing) good manners is something I think we can all learn from. Good manners might seem a little old-fashioned, but I believe they are important to nurturing successful relationships. As Drucker puts it:
 
-It was the latter part of the book, on the second half of a career, that I thought useful in this case. The review continues here.
+> Manners are the lubricating oil of an organisation. … Manners – simple things like saying ‘please’ and ‘thank you’ and knowing a person’s name or asking after her family – enable two people to work together whether they like each other or not. Bright people, especially bright young people, often do not understand this.
 
-Take a look at my past reviews for 8 Faces, etc. to get a feel for tone and length. Also take a look at Farnham Street and A Working Library.
+> If analysis shows that someone’s brilliant work fails again and again as soon as cooperation from others is required, it probably indicates a lack of courtesy – that is, a lack of manners.
 
-__Drucker, Peter (2008). [Managing Oneself.][01] Harvard: Harvard Business Review Classics.__
+I share this advice regularly. Being brilliant matters, of course, but I’d argue that being courteous matters even more. In our connected culture, we very rarely work alone, so understanding how we can work better with others can make the difference between success or failure.
+
+I’d strongly recommend you [pick up a copy][01].
+
+<small>Drucker, Peter (2008). [Managing Oneself.][01] Harvard: Harvard Business Review Classics.</small>
 
 
 [01]: http://www.amazon.co.uk/exec/obidos/ASIN/142212312X/monographic-21 "Get the book."

@@ -9,7 +9,7 @@ layout:			post
 ---
 
 
-If you haven’t discovered [Lagom][01], I’d encourage you to rectify that now. Lovingly produced by Elliot and Samantha Jay Stocks, it should occupy pride of place on coffee tables the world over (after having been read, of course).
+If you haven’t discovered [Lagom][01], I’d encourage you to rectify that now. Lovingly produced by Elliot and Samantha Stocks, it should occupy pride of place on coffee tables the world over (after having been read, of course).
 
 I was delighted to be invited to contribute an article on wild swimming for Issue 3, for the magazine’s [Escape and Recharge][02] section.
 

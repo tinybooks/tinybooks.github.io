@@ -15,7 +15,7 @@ Paul Jarvis bids farewell to Medium. As he puts it, [It’s not you, it’s me.]
 
 > While you’ve helped me grow my audience (I have more followers here than on Twitter or my own mailing list), growth isn’t my only metric for measuring what I do and how much it supports me.
 
-Jarvis is just one in a series of writers that, as we ease into a new year, are revisiting the platforms that they embrace (or eschew), rediscovering the spirit of the open web and focusing their efforts on their own plots. ([Homesteading, not sharecropping.][02])
+Jarvis is just one of a series of writers that, as we ease into a new year, are revisiting the platforms that they embrace (or eschew), rediscovering the spirit of the open web and focusing their efforts on their own plots. ([Homesteading, not sharecropping.][02])
 
 Yes, Medium has benefits, and – as Jarvis acknowledges - Medium has helped him grow his audience, however, the quid pro quo is that Jarvis is driving (his) traffic elsewhere. There’s always a trade off.
 

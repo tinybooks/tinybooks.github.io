@@ -9,7 +9,7 @@ layout:			post
 ---
 
 
-I'm not a gamer – far from it – but [Firewatch][01], a partnership between the [Campo Santo][02] and [Panic][03] teams, looks lovely. It admirably demonstrates the power of partnerships.
+I’m not a gamer – far from it – but [Firewatch][01], a partnership between the [Campo Santo][02] and [Panic][03] teams, looks lovely. It admirably demonstrates the power of partnerships.
 
 
 [01]: http://www.firewatchgame.com "Firewatch"

@@ -4,14 +4,14 @@ author:			Christopher Murphy
 date:			2016-01-19 11:18:00
 category: 		Notes
 image:			moo-sugru.png
-imagealt:		On Innovation and Facing Challenges
+imagealt:		On Innovation and Facing Challenges [Detail]
 layout:			post
 ---
 
 
 It’s no secret that I’m a [Sugru][01] supporter. (Sugru is, perhaps unsurprisingly, a case study in my first Tiny Book [Start!][02])
 
-I’ve always found Sugru’s story inspiring. It’s a story of relentless  – never-give-up – perseverance. It’s also a story that we can all learn from, about the power of staying true to your vision and following that vision to the end.
+I’ve always found Sugru’s story inspiring. It’s a story of relentless  – never-give-up – perseverance. It’s also a story that we can all learn from, about the power of staying true to your vision and pursuing that vision to the end.
 
 In 2014, when I launched my Kickstarter for my design conference, [Break][03], Sugru founder Jane Ni Dhulchaointigh – I prefer to call her ‘Jane’, as I’ve always struggled with accurate pronunciations – was right at the heart of my speaker wishlist.
 
