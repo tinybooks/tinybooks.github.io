@@ -1,7 +1,7 @@
 ---
 title:			ThingMaker
 author:			Christopher Murphy
-date:			2016-02-20 17:54:00
+date:			2016-02-20 17:12:00
 category: 		Notes
 image:			thingmaker.png
 imagealt:		ThingMaker [Detail]
