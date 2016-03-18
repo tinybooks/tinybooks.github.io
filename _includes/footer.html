@@ -32,7 +32,34 @@
     {% include mailinglist.html %}
   </div>
 </div>
+</div>
 
+<script>
+
+/*!
+ *
+ *  Copyright © David Bushell | http://dbushell.com/
+ *
+ */
+
+Modernizr.load([
+    {
+        load: [
+            '/js/main.js'
+        ],
+        complete: function()
+        {
+
+            $.fn.ready(function()
+            {
+                window.App.init();
+            });
+
+        }
+    }
+]);
+
+</script>
 <script type="text/javascript">
   $(document).ready(function(){
     $('.js-newsletter').click(function(e){

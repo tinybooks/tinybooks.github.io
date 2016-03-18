@@ -56,6 +56,9 @@ img {
   padding: 0 16px;
   max-width: 720px;
   margin: 0 auto;
+  &.wide {
+    max-width: 1200px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,6 +69,19 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 27px;
   letter-spacing: 6px;
   line-height: 32px;
+  margin-bottom: $heading-sp;
+  text-align: center;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+
+.subtitle {
+  font-family: $disp;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: $light;
+  font-size: 36px;
+  letter-spacing: 6px;
   margin-bottom: $heading-sp;
   text-align: center;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -112,6 +128,37 @@ a {
   transition: all 0.1s ease-out;
   cursor: pointer;
   -webkit-appearance:none;
+  &.btn-buy {
+    display: block;
+    max-width: 260px;
+    background: none;
+    color: $link;
+    border-color: $link;
+    position: relative;
+    &:hover {
+      background: $link;
+      color: $light;
+    }
+    p.buy-formats {
+      font-size: 16px;
+    }
+    .btn-buy__left,
+    .btn-buy__right {
+      display: inline-block;
+    }
+    .btn-buy__right {
+      background: $link;
+      color: $light;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.9em;
+      font-size: 23px;
+    }
+    p {
+      margin: 0;
+    }
+  }
   &:hover {
     background: none;
     color: $link;
@@ -294,14 +341,17 @@ header, .overlay {
 }
 
 .formats-display {
-  @include sprite($formats-display);
+  background: url(../img/start-hero.svg) 0 0 no-repeat;
+  display: inline-block;
   position: relative;
   z-index: 3;
   vertical-align: middle;
   right: 540px;
   position: absolute;
-  top: -26px;
+  top: 26px;
   display: none;
+  width: 840px;
+  height: 632px;
   @media screen and (min-width:$show-books) {
     display: inline-block;
   }
@@ -331,7 +381,7 @@ header, .overlay {
   }
 }
 
-.list-quotes {
+.list-quotes, .list-testimonials {
   list-style-type: none;
   margin: 0 auto 128px;
   padding: 0;
@@ -376,6 +426,18 @@ header, .overlay {
     margin-right: 8px;
     margin-top: 4px;
     margin-bottom: 0;
+  }
+}
+.list-testimonials {
+  margin-bottom: 66px;
+  li {
+    max-width: none;
+  }
+  i {
+    font-size: 22px;
+  }
+  blockquote {
+    padding: 0;
   }
 }
 
@@ -847,5 +909,148 @@ blockquote {
   }
   100% {
     opacity: 0;
+  }
+}
+
+.book-left, .book-right {
+  @media screen and (min-width:900px) {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+.book-left {
+  .btn {
+    margin: 0 auto;
+    @media screen and (min-width:900px) {
+      margin: 0;
+    }
+  }
+  @media screen and (min-width:900px) {
+    max-width: 41%;
+    > p {
+      font-size: 18px;
+      padding-right: 5em;
+    }
+  }
+  width: 100%;
+}
+.book-right {
+  width: 100%;
+  @media screen and (min-width:900px) {
+    max-width: 59%;
+  }
+  hr {
+    margin-top: 56px;
+  }
+}
+
+.list-chapters {
+  margin: 56px 0 0;
+  padding: 0;
+  list-style-type: none;
+  li {
+    margin-bottom: 56px;
+    p {
+      font-size: 18px;
+      opacity: 0.8;
+    }
+  }
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: $serif;
+    text-transform: none;
+    letter-spacing: 0;
+    text-align: left;
+    margin-bottom: -16px;
+  }
+}
+
+
+
+.nav-wrap {
+  background: #fff;
+  padding: 0.5em 1em;
+}
+
+
+#wrap { z-index: 1; position: relative; }
+
+#menu-link {
+  position: absolute; top: 1em; right: 1.25em; display: block; width: 2.625em; height: 2.25em; background: url("../img/ico-nav.svg") center center no-repeat; background-size: 1.563em 1.25em; -webkit-border-radius: 0.188em; -moz-border-radius: 0.188em; -ms-border-radius: 0.188em; -o-border-radius: 0.188em; border-radius: 0.188em; outline: none; overflow: hidden; white-space: nowrap; text-indent: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 999; border: none;
+  @media screen and (min-width:512px) {
+    top: 0.5em;
+  }
+}
+
+@media screen and (min-width: 1103px) {
+  #menu-link { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  #menu .block-title { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  #menu .close { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  #menu ul { text-align: center; white-space: nowrap; }
+  #menu li { display: inline-block; border-right: 1px solid rgba(255, 255, 255, 0.1); }
+  #menu li:last-child { border-right: none; }
+  #menu li a { padding: 0.429em 0.857em; }
+}
+@media screen and (max-width: 1102px) {
+  #menu li {
+    &.nav-logo {
+      display: none;
+    }
+  }
+  .js-advanced #wrap {
+    -webkit-transition: -webkit-transform 500ms ease; -moz-transition: -moz-transform 500ms ease; -o-transition: -o-transform 500ms ease; transition: transform 500ms ease; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden;
+  }
+  #menu {
+    position: absolute; overflow: hidden; top: 0; right: -240px; width: 240px; height: 100%; -webkit-box-shadow: inset 1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25); box-shadow: inset 1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding-top: 1em;
+  }
+  .js-advanced #menu {
+    right: 0; -webkit-transform: translate3d(-40px, 0, 0); -moz-transform: translate3d(240px, 0, 0); -ms-transform: translate3d(240px, 0, 0); -o-transform: translate3d(240px, 0, 0); transform: translate3d(240px, 0, 0); -webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -ms-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden;
+  }
+  #menu .block { position: relative; padding: 5.25em 0 0 0; }
+  .js-advanced #menu .block { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; -webkit-transition: opacity 300ms 100ms, -webkit-transform 500ms ease; -webkit-transition-delay: ease, 0s; -moz-transition: opacity 300ms 100ms ease, -moz-transform 500ms ease; -o-transition: opacity 300ms 100ms ease, -o-transform 500ms ease; transition: opacity 300ms 100ms ease, transform 500ms ease; -webkit-transform-origin: 100% 50%; -moz-transform-origin: 100% 50%; -ms-transform-origin: 100% 50%; -o-transform-origin: 100% 50%; transform-origin: 100% 50%; -webkit-transform: translate3d(70%, 0, 0) scaleX(0.9) scaleY(0.9); -moz-transform: translate3d(70%, 0, 0) scaleX(0.9) scaleY(0.9); -ms-transform: translate3d(70%, 0, 0) scaleX(0.9) scaleY(0.9); -o-transform: translate3d(70%, 0, 0) scaleX(0.9) scaleY(0.9); transform: translate3d(70%, 0, 0) scaleX(0.9) scaleY(0.9); }
+  #menu li { position: relative; float: none; border-right: none; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+  #menu li:last-child { border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+  #menu li.is-active:after { z-index: 50; display: block; content: ""; position: absolute; top: 50%; right: -0.031em; margin-top: -0.625em; border-top: 0.625em transparent solid; border-bottom: 0.625em transparent solid; border-right: 0.625em white solid; }
+  #menu li a {
+    display: block;
+    margin: 0;
+    padding: 0.5em 1em;
+  }
+  .js-basic.js-menu #wrap { right: 240px; }
+  .js-advanced.js-menu #wrap { -webkit-transform: translate3d(-240px, 0, 0); -moz-transform: translate3d(-240px, 0, 0); -ms-transform: translate3d(-240px, 0, 0); -o-transform: translate3d(-240px, 0, 0); transform: translate3d(-240px, 0, 0); }
+  .js-advanced.js-menu #menu .block { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; -webkit-transform: translate3d(0, 0, 0); -moz-transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); -o-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); } }
+
+
+.nav-logo.mb-only {
+  font-family: "klavika-web-condensed",sans-serif;
+  text-transform: uppercase;
+  font-size: 21px;
+  letter-spacing: 0.8px;
+  line-height: 21px;
+  margin-top: 0;
+  display: none;
+  @media screen and (max-width:1102px) {
+    display: inline-block;
+  }
+  a {
+    border: none;
+    color: #38556E;
+  }
+  .logo {
+    background-position: -2px -76px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 48px;
+    vertical-align: middle;
+    background-size: 416px;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0.4em;
   }
 }
