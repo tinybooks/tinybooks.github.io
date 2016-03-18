@@ -7,7 +7,7 @@
 $serif: "elena-web-basic", georgia, serif;
 $disp: "klavika-web-disp-cond", sans-serif;
 $cond: "klavika-web-condensed", sans-serif;
-$color: #787773;
+$color: #333;
 $dark: #272C2D;
 $light: #DCDAC8;
 $link: #FF5720;
@@ -25,10 +25,15 @@ $show-books: 892px;
   box-sizing: border-box;
 }
 
+@mixin link-reset {
+  background: none;
+  text-shadow: none;
+}
+
 body {
   font-family: $serif;
   @media screen and (min-width:520px) {
-    font-size: 20px;
+    font-size: 22px;
   }
   color: $color;
   line-height: 1.4;
@@ -36,13 +41,6 @@ body {
   padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: greyscale;
-  &.overlay-active {
-    #container {
-      -webkit-filter: blur(5px);
-      -o-filter: blur(5px);
-      filter: blur(5px);
-    }
-  }
 }
 
 em {
@@ -92,9 +90,10 @@ hr {
 a {
   color: $link;
   text-decoration: none;
-  border-bottom: 1px solid fade-out($link, 0.6);
+  border-bottom: 1px solid $light;
+  transition: border 0.2s ease-out;
   &:hover {
-    border-bottom-color: #fff;
+    border-bottom-color: $link;
   }
 }
 
@@ -205,7 +204,7 @@ nav {
   }
 }
 
-header {
+header, .overlay {
   background-image: linear-gradient(-180deg, #1A1B1E 0%, #735B6A 100%);
   text-align: center;
   color: $light;
@@ -254,7 +253,8 @@ header {
     background-repeat: repeat-x;
     width: auto;
     height: auto;
-    z-index: 1
+    z-index: 1;
+    opacity: 0.3;
   }
   h1, em {
     color: $light;
@@ -304,6 +304,30 @@ header {
   display: none;
   @media screen and (min-width:$show-books) {
     display: inline-block;
+  }
+}
+
+.list-posts-archive {
+  .post {
+    &:after {
+      display: none;
+    }
+  }
+  li {
+    display: inline;
+  }
+  .post-link {
+    display: inline-block;
+    vertical-align: top;
+    width: 128px;
+    height: 128px;
+    overflow: hidden;
+    border: 5px solid $grey;
+    margin: 1em;
+    img {
+      display: block;
+      max-width: none;
+    }
   }
 }
 
@@ -599,6 +623,21 @@ footer {
   list-style-type: none;
   padding: 0;
   margin: 0 0 26px;
+  color: fade-out($color, 0.8);
+  &.post-meta--footer {
+    margin: 2.6em 0 26px;
+    padding-top: 1em;
+    border-top: 1px solid $light;
+    font-family: $cond;
+    text-transform: uppercase;
+    a {
+      color: fade-out($color, 0.7);
+      border: none;
+      &:hover {
+        color: fade-out($color, 0.5);
+      }
+    }
+  }
   li {
     @media screen and (min-width:520px) {
       font-size: 18px;
@@ -607,12 +646,8 @@ footer {
     margin-right: 1em;
   }
   .post-meta--unix {
-    @media screen and (min-width:540px) {
-      float: right;
-    }
-    margin-right: 0;
     a {
-      color: $light;
+      color: $color;
       border: none;
       &:hover {
         color: $color;
@@ -622,9 +657,11 @@ footer {
 }
 
 blockquote {
-  border-left: 3px solid $light;
+  border-left: 5px solid $blue;
   margin-left: 0;
   padding-left: 2em;
+  font-style: italic;
+  color: $blue;
   cite {
     &:before {
       content: '— ';
@@ -644,9 +681,78 @@ blockquote {
   border: none;
 }
 
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+@-webkit-keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+}
+
 .overlay {
-  background: #fff;
-  background: fade-out(white, 0.02);
   display: none;
   position: fixed;
   top: 0;
@@ -654,10 +760,24 @@ blockquote {
   left: 0;
   right: 0;
   z-index: 9;
-  opacity: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: auto;
+  h2 {
+    color: $link;
+  }
+  p {
+    max-width: 572px;
+    margin: 0 auto;
+  }
+  &:after {
+    animation: none;
+  }
   .container {
     margin-top: 56px;
     width: 100%;
+    position: relative;
+    z-index: 1;
     @media screen and (min-width:580px) {
       margin-top: 0;
       transform: translate(-50%, -50%);
@@ -668,7 +788,6 @@ blockquote {
   }
   &.active {
     display: block;
-    opacity: 1;
     .container {
 
     }

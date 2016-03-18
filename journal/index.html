@@ -10,11 +10,13 @@ title: Journal
       <li class="post">
         <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <ul class="post-meta">
-          <li><a href="https://twitter.com/fehler" title="Follow me on Twitter.">{{ post.author }}</a></li>
-          <li class="post-meta--unix"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
+          <li><a href="https://twitter.com/fehler" title="Follow me on Twitter.">{{ post.author }}</a> &bull; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B, %Y' }}</a></li>
         </ul>
         <img class="post-image" src="/assets/{{ post.image }}" alt="{{ post.imagealt }}" />
         {{ post.content }}
+				<ul class="post-meta post-meta--footer">
+					<li><a href="/category/{{ post.category | slugify }}">{{ post.category }} </a> &bull; <a href="https://twitter.com/fehler">Twitter</a> &bull; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
+				</ul>
       </li>
     {% endfor %}
   </ul>

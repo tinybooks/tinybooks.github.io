@@ -11,11 +11,14 @@
         <ul>
           <li><a href="{{ site.baseurl }}/">Home</a></li>
           <li><a href="{{ site.baseurl }}/books">Books</a></li>
-          <li><a href="{{ site.baseurl }}/journal">Journal</a></li>
-          <li><a href="{{ site.baseurl }}/purpose">Purpose</a></li>
+          <li><a href="{{ site.baseurl }}/journal">The Journal</a></li>
+          <li><a href="{{ site.baseurl }}/speaking">Speaking</a></li>
+          <li><a href="{{ site.baseurl }}/biography">Biography</a></li>
           <li><a class="js-newsletter" href="">Newsletter</a></li>
+          <li><a href="{{ site.baseurl }}/purpose">Purpose</a></li>
           <li><a href="https://twitter.com/fehler">Twitter</a></li>
           <li><a href="mailto:info@tinybooks.org">Email</a></li>
+          <li><a href="{{ site.baseurl }}/colophon">Colophon</a></li>
         </ul>
       </div>
     </div>
@@ -33,13 +36,18 @@
 <script type="text/javascript">
   $(document).ready(function(){
     $('.js-newsletter').click(function(e){
-      $('.js-newsletter-overlay').addClass('active');
+      $('.overlay').removeClass('animated zoomOut');
+      $('.js-newsletter-overlay').addClass('active animated zoomIn');
       $('body').addClass('overlay-active');
       e.preventDefault();
     });
     $('.js-overlay-close').click(function(e){
-      $('.overlay').removeClass('active');
+      $('.overlay').removeClass('animated zoomIn');
+      $('.overlay').addClass('animated zoomOut');
       $('body').removeClass('overlay-active');
+      setTimeout(function(){
+        $('.overlay').removeClass('active');
+      }, 500);
       e.preventDefault();
     });
     $('.list-quotes').slick({

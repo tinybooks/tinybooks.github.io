@@ -1,6 +1,6 @@
 ---
 layout: default
-title-override: Journal
+title-override: Journalfdgffg
 ---
 <div class="post">
 
@@ -8,13 +8,12 @@ title-override: Journal
     <div class="container">
       <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
       <ul class="post-meta">
-        <li><a href="https://twitter.com/fehler" title="Follow Christopher on Twitter.">{{ page.author }}</a> · {{ page.date | date: "%B, %Y" }}</li>
+        <li><a href="https://twitter.com/fehler" title="Follow me on Twitter.">{{ page.author }}</a> &bull; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: '%B, %Y' }}</a></li>
       </ul>
       <img class="post-image" src="/assets/{{ page.image }}" alt="{{ page.imagealt }}" />
       {{ content }}
-      
-      <ul class="post-meta">
-        <li class="post-meta--unix"><a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%s" }}</a> · {{ page.categories }}</li>
+      <ul class="post-meta post-meta--footer">
+        <li><a href="{{ site.baseurl }}category/{{ post.category | slugify }}">{{ post.category }} </a> &bull; <a href="https://twitter.com/fehler">Twitter</a> &bull; <a href="{{ post.url | prepend: site.baseurl }}">{{ page.date | date: "%s" }}</a></li>
       </ul>
     </div>
   </article>

@@ -10,9 +10,18 @@ url: "http://tinybooks.org/" # The base hostname and protocol for your site.
 twitter_username: fehler
 github_username: tinybooks
 paginate: 10
-exclude: node_modules
-permalink: /journal/:title
+permalink: /journal//:year/:month/:day/:title
 paginate_path: "/journal/page:num/"
+jekyll-archives:
+  enabled:
+    - categories
+  layout: 'category-archive'
+  permalinks:
+    category: '/category/:name/'
+
+gems:
+  - jekyll-archives
+  - jekyll-paginate
 
 # Build Settings
 markdown: kramdown

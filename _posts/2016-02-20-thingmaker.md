@@ -2,12 +2,11 @@
 title:			ThingMaker
 author:			Christopher Murphy
 date:			2016-02-20 17:08:00
-category: 		Notes
+category: 	Notes
 image:			thingmaker.png
 imagealt:		ThingMaker [Detail]
 layout:			post
 ---
-
 
 If 3D printing’s caught your eye, but you’ve been put off by the (still) exorbitant price of entry, Mattel’s new [ThingMaker][01] might just be the device that enables you to dip your toe in the water of 3D printing, enabling you to explore its potential.
 

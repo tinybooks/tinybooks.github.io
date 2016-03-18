@@ -3,18 +3,10 @@ layout: default
 title: Archive
 ---
 
-<div class="container">
+<div class="container container--wide">
 	<h1>All Posts</h1>
   <ul class="list-posts-archive">
-    {% for post in site.posts %}
-      <li class="post">
-        <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-        <ul class="post-meta">
-			<li><a href="https://twitter.com/fehler" title="Follow me on Twitter.">{{ page.author }}</a></li>
-			<li class="post-meta--unix"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
-        </ul>
-      </li>
-    {% endfor %}
+    {% for post in site.posts %}<li class="post"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"><img src="/assets/{{ post.image }}" alt="{{ post.imagealt }}" /></a></li>{% endfor %}
   </ul>
 
 </div>
