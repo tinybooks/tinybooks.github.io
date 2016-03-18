@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-rss</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="ico-rss" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <circle id="Oval" sketch:type="MSShapeGroup" cx="3.46666667" cy="22.5333333" r="3.46666667"></circle>
+            <path d="M17.3333333,26 L12.2527414,26 C12.2527414,19.2327173 6.76689696,13.7467703 0,13.7467703 L0,13.7467703 L0,8.66666667 C9.57326379,8.66666667 17.3333333,16.4268537 17.3333333,26 L17.3333333,26 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            <path d="M20.8001577,26 C20.8001577,14.51242 11.4878586,5.2 0,5.2 L0,0 C14.359429,0 26,11.64072 26,26 L20.8001577,26 L20.8001577,26 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
