@@ -216,7 +216,7 @@ nav {
           font-size: 21px;
           letter-spacing: 0.8px;
           line-height: 21px;
-          margin-top: 6px;
+          margin-top: -3px;
           span {
             display: none;
             @media screen and (min-width:660px) {
@@ -971,7 +971,9 @@ blockquote {
 
 .nav-wrap {
   background: #fff;
-  padding: 0.5em 1em;
+  @media screen and (max-width:1102px) {
+    padding: 0.5em 1em;
+  }
 }
 
 
