@@ -491,8 +491,17 @@ header, .overlay {
   padding: 0;
   margin-bottom: 56px;
   text-align: center;
+  @media screen and (min-width:$show-books) {
+    text-align: left;
+  }
   li {
     margin-bottom: 8px;
+    &.book-image {
+      @media screen and (min-width:$show-books) {
+        float: left;
+        margin-right: 1.6em;
+      }
+    }
   }
   cite {
     font-style: normal;
@@ -647,18 +656,12 @@ footer {
   @extend h1;
 }
 
+.archive-link {
+  margin-bottom: 96px;
+}
 
 .post {
-  &:after {
-    content: '';
-    display: block;
-    border-bottom: 1px solid $light;
-    max-width: 190px;
-    margin: 96px auto;
-    .list-posts-archive & {
-      border: none;
-    }
-  }
+  margin-bottom: 126px;
   &:last-of-type {
     &:after {
       display: none;
@@ -697,8 +700,8 @@ footer {
     margin: 2.6em 0 26px;
     padding-top: 1em;
     border-top: 1px solid $light;
-    font-family: $cond;
-    text-transform: uppercase;
+    // font-family: $cond;
+    // text-transform: uppercase;
     a {
       color: fade-out($color, 0.7);
       border: none;
@@ -926,6 +929,9 @@ blockquote {
   }
 }
 .book-left {
+  @media screen and (min-width:$show-books) {
+    margin-top: 56px;
+  }
   .btn {
     margin: 0 auto;
     @media screen and (min-width:900px) {
@@ -988,7 +994,9 @@ blockquote {
   z-index: 1;
   position: relative;
   background: #fff;
-  box-shadow: 1px 0 10px rgba(0, 0, 0, 0.3);
+  @media screen and (max-width:1102px) {
+    box-shadow: 1px 0 10px rgba(0, 0, 0, 0.3);
+  }
 }
 
 #menu-link {

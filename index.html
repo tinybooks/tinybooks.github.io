@@ -16,6 +16,9 @@ layout: home
 				</ul>
 				<img class="post-image" src="/assets/{{ post.image }}" alt="{{ post.imagealt }}" />
 				{{ post.content }}
+				<ul class="post-meta post-meta--footer">
+					<li><a href="/category/{{ post.category | slugify }}">{{ post.category }} </a> &bull; <a href="https://twitter.com/fehler">Twitter</a> &bull; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.date | date: "%s" }}</a></li>
+				</ul>
 			</li>
 		{% endfor %}
 	</ul>
