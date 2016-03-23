@@ -170,7 +170,9 @@ a {
 }
 
 .logo {
-  @include sprite($logo);
+  display: inline-block;
+  background: url(../img/logo.svg) 0 0 no-repeat;
+  background-size: contain;
 }
 
 
@@ -223,21 +225,19 @@ nav {
           span {
             display: none;
             @media screen and (min-width:660px) {
-              display: inline;
+              display: inline-block;
+              margin-left: 0.6em;
             }
           }
           .logo {
-            background-position: -2px -76px;
-            background-repeat: no-repeat;
-            width: 40px;
-            height: 48px;
-            background-size: 416px;
+            width: 59px;
+            height: 58px;
             position: absolute;
             z-index: 1;
             margin-left: -56px;
             margin-top: -31px;
             @media screen and (min-width:660px) {
-              margin-top: -14px;
+              margin-top: -19px;
             }
           }
           a {
@@ -570,11 +570,8 @@ footer {
     text-align: left;
   }
   .logo {
-    background-position: -2px -80px;
-    background-repeat: no-repeat;
     width: 43px;
     height: 51px;
-    background-size: 440px;
   }
 }
 
@@ -1103,12 +1100,9 @@ blockquote {
     color: #38556E;
   }
   .logo {
-    background-position: -2px -76px;
-    background-repeat: no-repeat;
     width: 40px;
     height: 48px;
     vertical-align: middle;
-    background-size: 416px;
   }
   span {
     display: inline-block;
