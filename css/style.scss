@@ -32,6 +32,7 @@ $show-books: 892px;
 
 body {
   font-family: $serif;
+  font-size: 20px;
   @media screen and (min-width:520px) {
     font-size: 22px;
   }
@@ -173,6 +174,12 @@ a {
   display: inline-block;
   background: url(../img/logo.svg) 0 0 no-repeat;
   background-size: contain;
+  header & {
+    background: url(../img/logo.svg) center center no-repeat;
+    background-size: contain;
+    width: 160px;
+    height: 160px;
+  }
 }
 
 
@@ -351,7 +358,7 @@ header, .overlay {
   vertical-align: middle;
   right: 540px;
   position: absolute;
-  top: 26px;
+  top: 52px;
   display: none;
   width: 840px;
   height: 632px;
@@ -360,7 +367,24 @@ header, .overlay {
   }
 }
 
+.list-posts,
 .list-posts-archive {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list-posts-archive {
+  margin: 0 auto;
+  @media screen and (min-width:368px) {
+    max-width: 344px;
+  }
+  @media screen and (min-width:580px) {
+    max-width: 519px;
+  }
+  @media screen and (min-width:734px) {
+    max-width: 688px;
+  }
   .post {
     &:after {
       display: none;
@@ -422,7 +446,10 @@ header, .overlay {
   }
   i {
     display: block;
-    font-size: 18px;
+    font-size: 22px;
+    @media screen and (min-width:520px) {
+      font-size: 24px;
+    }
   }
   .icon {
     float: left;
@@ -435,9 +462,6 @@ header, .overlay {
   margin-bottom: 66px;
   li {
     max-width: none;
-  }
-  i {
-    font-size: 22px;
   }
   blockquote {
     padding: 0;
@@ -490,13 +514,13 @@ header, .overlay {
   margin: 0;
   padding: 0;
   margin-bottom: 56px;
-  text-align: center;
   @media screen and (min-width:$show-books) {
     text-align: left;
   }
   li {
     margin-bottom: 8px;
     &.book-image {
+      text-align: center;
       @media screen and (min-width:$show-books) {
         float: left;
         margin-right: 1.6em;
@@ -537,6 +561,7 @@ footer {
   font-size: 16px;
   overflow: hidden;
   padding-top: 16px;
+  margin-top: 96px;
   p {
     margin-bottom: 0;
     &.ta-c {
@@ -642,13 +667,6 @@ footer {
   }
 }
 
-.list-posts,
-.list-posts-archive {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
 .page-title {
   @extend h1;
 }
@@ -666,6 +684,9 @@ footer {
   }
   h1 {
     @extend h2;
+    a {
+      border: none;
+    }
   }
   h2 {
     font-family: $serif;
@@ -673,6 +694,9 @@ footer {
     letter-spacing: 0;
     text-align: left;
     margin-bottom: 8px;
+    a {
+      border: none;
+    }
   }
   ul {
     list-style-type: disc;
@@ -693,9 +717,17 @@ footer {
   padding: 0;
   margin: 0 0 26px;
   color: fade-out($color, 0.8);
+  a {
+    color: fade-out($color, 0.8);
+    transition: all 0.26s ease-out;
+    &:hover {
+      color: $link;
+      border-color: $link;
+    }
+  }
   &.post-meta--footer {
-    margin: 2.6em 0 26px;
-    padding-top: 1em;
+    margin: 1.6em 0 26px;
+    padding-top: 0.3em;
     border-top: 1px solid $light;
     // font-family: $cond;
     // text-transform: uppercase;
@@ -708,9 +740,7 @@ footer {
     }
   }
   li {
-    @media screen and (min-width:520px) {
-      font-size: 18px;
-    }
+    font-size: 0.81em;
     display: inline-block;
     margin-right: 1em;
   }
@@ -728,9 +758,10 @@ footer {
 blockquote {
   border-left: 5px solid $blue;
   margin-left: 0;
-  padding-left: 2em;
+  padding-left: 1.2em;
   font-style: italic;
   color: $blue;
+  font-size: 1.15em;
   cite {
     &:before {
       content: '— ';
@@ -997,7 +1028,7 @@ blockquote {
 }
 
 #menu-link {
-  position: absolute; top: 1em; right: 1.25em; display: block; width: 2.625em; height: 2.25em; background: url("../img/ico-nav.svg") center center no-repeat; background-size: 1.563em 1.25em; -webkit-border-radius: 0.188em; -moz-border-radius: 0.188em; -ms-border-radius: 0.188em; -o-border-radius: 0.188em; border-radius: 0.188em; outline: none; overflow: hidden; white-space: nowrap; text-indent: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 999; border: none;
+  position: absolute; top: 0.6em; right: 1.25em; display: block; width: 2.625em; height: 2.25em; background: url("../img/ico-nav.svg") center center no-repeat; background-size: 1.563em 1.25em; -webkit-border-radius: 0.188em; -moz-border-radius: 0.188em; -ms-border-radius: 0.188em; -o-border-radius: 0.188em; border-radius: 0.188em; outline: none; overflow: hidden; white-space: nowrap; text-indent: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); z-index: 999; border: none;
   @media screen and (min-width:512px) {
     top: 0.5em;
   }
@@ -1042,7 +1073,7 @@ blockquote {
     position: absolute;
     top: 0;
     right: 0;
-    width: 240px;
+    width: 190px;
     height: 100%;
     margin: 0;
     padding-top: 1em;
@@ -1057,26 +1088,26 @@ blockquote {
     z-index: -1;
   }
   .js-advanced.js-menu #menu {
-    -webkit-transform: translate3d(240px, 0, 0);
-    -moz-transform: translate3d(240px, 0, 0);
-    -ms-transform: translate3d(240px, 0, 0);
-    -o-transform: translate3d(240px, 0, 0);
-    transform: translate3d(240px, 0, 0);
+    -webkit-transform: translate3d(190px, 0, 0);
+    -moz-transform: translate3d(190px, 0, 0);
+    -ms-transform: translate3d(190px, 0, 0);
+    -o-transform: translate3d(190px, 0, 0);
+    transform: translate3d(190px, 0, 0);
     z-index: 9;
     // right: -240px;
     overflow: hidden;
   }
   .js-advanced.js-menu #wrap {
-    -webkit-transform: translate3d(-240px, 0, 0);
-    -moz-transform: translate3d(-240px, 0, 0);
-    -ms-transform: translate3d(-240px, 0, 0);
-    -o-transform: translate3d(-240px, 0, 0);
-    transform: translate3d(-240px, 0, 0);
+    -webkit-transform: translate3d(-190px, 0, 0);
+    -moz-transform: translate3d(-190px, 0, 0);
+    -ms-transform: translate3d(-190px, 0, 0);
+    -o-transform: translate3d(-190px, 0, 0);
+    transform: translate3d(-190px, 0, 0);
   }
   #menu li a {
     display: block;
     margin: 0;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em 0.5em 0;
   }
   .js-basic.js-menu #wrap {
     right: 0;
@@ -1092,6 +1123,8 @@ blockquote {
   line-height: 21px;
   margin-top: 0;
   display: none;
+  position: relative;
+  top: 2px;
   @media screen and (max-width:1102px) {
     display: inline-block;
   }
