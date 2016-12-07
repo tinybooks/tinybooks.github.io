@@ -1171,17 +1171,29 @@ blockquote {
   }
   .ta-c {
     margin-bottom: 0;
+    @media screen and (min-width:758px) {
+      position: absolute;
+      bottom: 1.6em;
+      left: 0;
+      right: 0;
+    }
   }
   > li {
     display: inline-block;
     vertical-align: top;
-    max-width: 33.3%;
+    @media screen and (min-width:758px) {
+      max-width: 33.3%;
+    }
     width: 100%;
     padding: 0.6em;
     .tier {
       border: 1px solid $light;
       padding: 0.4em 1em 1.3em;
       border-radius: 3px;
+      @media screen and (min-width:758px) {
+        min-height: 400px;
+        position: relative;
+      }
     }
   }
 }
