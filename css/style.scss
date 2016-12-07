@@ -330,6 +330,10 @@ header, .overlay {
     position: relative;
     max-width: 1230px;
   }
+  &.newsletter-standalone {
+    display: block;
+    top: 74px;
+  }
 }
 
 .page-content {
@@ -1193,6 +1197,7 @@ blockquote {
       @media screen and (min-width:758px) {
         min-height: 400px;
         position: relative;
+        padding: 0.4em 1em 4.2em;
       }
     }
   }
