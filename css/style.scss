@@ -341,6 +341,10 @@ header, .overlay {
     z-index: 1;
 }
 
+.bd-newsletter {
+  background: #2b1c2f;
+}
+
 .header-contents {
   max-width: 480px;
   margin: 0 auto;
@@ -1185,7 +1189,7 @@ blockquote {
   > li {
     display: inline-block;
     vertical-align: top;
-    @media screen and (min-width:758px) {
+    @media screen and (min-width:1120px) {
       max-width: 33.3%;
     }
     width: 100%;
@@ -1194,7 +1198,11 @@ blockquote {
       border: 1px solid $light;
       padding: 0.4em 1em 1.3em;
       border-radius: 3px;
-      @media screen and (min-width:758px) {
+      max-width: 580px;
+      margin: 0 auto;
+      @media screen and (min-width:1120px) {
+        max-width: none;
+        margin: auto;
         min-height: 400px;
         position: relative;
         padding: 0.4em 1em 4.2em;
