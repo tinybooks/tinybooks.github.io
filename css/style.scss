@@ -342,7 +342,9 @@ header, .overlay {
 }
 
 .bd-newsletter {
-  background: #2b1c2f;
+  @media screen and (max-width:1102px) {
+    background: #2b1c2f;
+  }
 }
 
 .header-contents {
@@ -1179,7 +1181,7 @@ blockquote {
   }
   .ta-c {
     margin-bottom: 0;
-    @media screen and (min-width:758px) {
+    @media screen and (min-width:1120px) {
       position: absolute;
       bottom: 1.6em;
       left: 0;
